@@ -256,12 +256,12 @@
     bottom: 2.8vw;
     right: 94vw;
   }
-  .card-social svg {
+  .card_social svg {
 
     height: 25px;
   }
   
-  .card-social {
+  .card_social {
     display: flex;
     align-items: flex-end;
     border-radius: 5px;
@@ -278,7 +278,7 @@
     /* flex-direction: column; */
   }
   
-  .card-social::before, .card-social::after {
+  .card_social::before, .card_social::after {
     position: absolute;
     display: flex;
     align-items: center;
@@ -288,40 +288,40 @@
     z-index: 1;
   }
   
-  .card-social::before {
+  .card_social::before {
     content: "";
     left: 0;
     justify-content: flex-end;
     background-color: #4d60b6;
   }
   
-  .card-social::after {
+  .card_social::after {
     content: "";
     right: 0;
     justify-content: flex-start;
     background-color: #4453a6;
   }
   
-  .card-social:hover {
+  .card_social:hover {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   }
   
-  .card-social:hover span {
+  .card_social:hover span {
     opacity: 0;
     z-index: -3;
   }
   
-  .card-social:hover::before {
+  .card_social:hover::before {
     opacity: 0.5;
     transform: translateY(-100%);
   }
   
-  .card-social:hover::after {
+  .card_social:hover::after {
     opacity: 0.5;
     transform: translateY(100%);
   }
   
-  .card-social span {
+  .card_social span {
     rotate: 180deg;
     position: absolute;
     display: flex;
@@ -339,7 +339,7 @@
     /* transform: rotate(90deg); */
   }
   
-  .card-social .social-link {
+  .card_social .social-link {
     position: relative;
     display: flex;
     align-items: center;
@@ -352,13 +352,13 @@
     transition: 0.25s;
   }
   
-  .card-social .social-link svg {
+  .card_social .social-link svg {
     text-shadow: 1px 1px rgba(31, 74, 121, 0.7);
     transform: scale(1);
     transform: rotate(-90deg);
   }
   
-  .card-social .social-link:hover {
+  .card_social .social-link:hover {
     background-color: rgba(249, 244, 255, 0.774);
     animation: bounce_613 0.4s linear;
   }
@@ -382,8 +382,8 @@
   }
   .scroll-to-top {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 15px;
+    right: 15px;
     background-color: #007bff;
     color: #fff;
     border: none;
