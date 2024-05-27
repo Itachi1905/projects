@@ -254,7 +254,7 @@
     transform: rotate(90deg);
     position: fixed;
     bottom: 2.8vw;
-    right: -3.2vw;
+    right: 94vw;
   }
   .card-social svg {
 
@@ -322,6 +322,7 @@
   }
   
   .card-social span {
+    rotate: 180deg;
     position: absolute;
     display: flex;
     align-items: center;
@@ -382,7 +383,7 @@
   .scroll-to-top {
     position: fixed;
     bottom: 20px;
-    left: 20px;
+    right: 20px;
     background-color: #007bff;
     color: #fff;
     border: none;
