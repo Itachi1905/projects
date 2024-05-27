@@ -22,6 +22,8 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 4vw;
   align-items: center;
+  height: auto;
+  width: auto;
 }
 .card_card {
   width: 300px;
