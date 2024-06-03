@@ -15,7 +15,7 @@
   justify-content:space-around;
 } */
 .grid_grid {
-  backdrop-filter: blur(2px);
+  /* backdrop-filter: blur(2px); */
   margin-left: 5vw;
   margin-right: 5vw;
   margin-top: 5vh;
@@ -26,6 +26,16 @@
   height: auto;
   width: auto;
 }
+/* @media only screen and (max-width: 1000px) {
+  .grid_grid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .grid_grid{
+    grid-template-columns: 1fr 1fr;
+  }
+} */
 .card_card {
   width: 19vw;
   aspect-ratio: 16/9;
