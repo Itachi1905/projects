@@ -2,15 +2,18 @@
   "name": "bit_anime",
   "version": "1.0.0",
   "main": "accordion_clone.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon express.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "mongodb": "^6.7.0",
+    "mongoose": "^8.4.1"
   },
-  "devDependencies": {},
   "description": ""
 }
