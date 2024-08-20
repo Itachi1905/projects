@@ -11,14 +11,14 @@ function scrollFunction() {
   var scrollButton = document.querySelector(".scroll-to-top");
   var cardSocial = document.querySelector(".card_social");
   var social = document.querySelector(".social");
-  if ((document.documentElement.scrollTop>20)&&(document.documentElement.scrollTop<550)) {
+  if ((document.documentElement.scrollTop>20)) {
     cardSocial.style.display = "flex";
     cardSocial.style.rotate = "0deg";
-    social.style.bottom = "2.8vw";
-    social.style.right = "94vw";
+    // social.style.bottom = "2.8vw";
+    // social.style.right = "94vw";
     scrollButton.style.display="block";
   } else {
-    cardSocial.style.rotate = "360deg";
+    // cardSocial.style.rotate = "360deg";
     social.style.bottom = "2.8";
     social.style.right = "-2.8vw";
     scrollButton.style.display="none";
