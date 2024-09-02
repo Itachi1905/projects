@@ -1,0 +1,323 @@
+html,
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* overflow-x: hidden; */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #a8193d;
+  color: white;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  height: 6vh;
+}
+
+header .header-left {
+  flex: 1;
+}
+
+header .logo img {
+  max-width: 150px;
+}
+
+header .header-center {
+  flex: 2;
+  text-align: center;
+}
+
+header .header-center h1 {
+  margin: 0;
+  font-size: 2.3em;
+  translate: 20%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+header .header-right {
+  flex: 2;
+  text-align: right;
+  font-size: 1.3rem;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin-left: 15px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  transition: all 0.3s ease-in-out;
+}
+
+header nav ul li a:hover {
+  font-size: 1.3em;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+  background: url("https://cloudfront-us-east-2.images.arcpublishing.com/reuters/5F2VOYRT6ZJ5HGNFOMO2LNOUTM.jpg")
+    no-repeat center center/cover;
+}
+
+.hero {
+  width: 65%;
+  color: white;
+  padding: 50px;
+  text-align: center;
+  /* box-shadow: 0 0 10px rgba(0,0,0,0.2); */
+  background-size: 100%;
+  overflow: hidden;
+  background-size: 100%;
+  transition: all 0.3s ease-in-out;
+
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero:hover {
+  background-size: 108%;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.hero .cta-button {
+  background-color: #ffc107;
+  color: #a8193d;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  text-shadow: none;
+}
+
+.news-marquee {
+  width: 30%;
+  padding-left: 20px;
+}
+
+.news-marquee marquee {
+  height: 300px;
+  background-color: #f4f4f4;
+  color: #f3ebed;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(rgba(2, 167, 172, 0.7), rgba(152, 25, 97, 0.7)),
+    url("https://media.gettyimages.com/id/976810816/photo/vertical-axis-wind-turbines-on-the-rooftop-of-the-anz-bank-in-melbourne-australia.jpg?s=612x612&w=0&k=20&c=-pZszgU0c2_vkpPF-30paX2UMR1s00wn-ZTKByQK6bI=")
+      no-repeat center center/cover;
+}
+
+.services {
+  padding: 50px 0;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.services h2,
+.about h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.services h2:after,
+.about h2:after {
+  content: "";
+  width: 80px;
+  height: 4px;
+  background-color: #a8193d;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2px;
+}
+
+.services .service-item {
+  display: inline-block;
+  border-radius: 10px;
+  width: 30%;
+  margin: 0 1%;
+  background-color: #f4f4f4;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #f4f4f4;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  position: relative;
+}
+
+.services .service-item:hover {
+  transform: scale(1.1) translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.about {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.about p {
+  font-size: 1.2em;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.about {
+  text-align: left;
+  color: #333;
+}
+
+.services h3 {
+  font-size: 1.5rem;
+}
+.services h2 {
+    color: #333;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+footer p,
+footer ul li {
+  font-size: 1.2em;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+footer ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  transition: color 0.3s ease-in-out;
+}
+
+footer ul li a:hover {
+  color: #ffc107;
+}
+
+#ss_1 {
+  background: url("https://www.forbes.com/advisor/wp-content/uploads/2024/08/Saving-Rates-6-568x322.jpeg")
+    no-repeat center center/cover;
+}
+
+#ss_2 {
+  background: url("https://www.axisbank.com/images/default-source/progress-with-us_new/everything-about-premature-fixed-deposit-withdrawal.jpg?sfvrsn=ae5f1956_2")
+    no-repeat center center/cover;
+}
+
+#ss_3 {
+  background: url("https://www.livemint.com/lm-img/img/2024/03/26/600x338/rupixen-com-Q59HmzK38eQ-unsplash_1703238294784_1711439108838.jpg")
+    no-repeat center center/cover;
+}
+
+#ss_4 {
+  background: url("https://www.axisbank.com/images/default-source/revamp_new/loans/pl-higher-education.jpg")
+    no-repeat center center/cover;
+}
+
+.logo,
+.logo_img {
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+}
+.logo:hover,
+.logo_img:hover {
+  transform: scale(1.08);
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+.border::after,
+.border::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: conic-gradient(
+    from var(--angle),
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red,
+    violet
+  );
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  translate: -50% -50%;
+  padding: 3px;
+  border-radius: 10px;
+  animation: 3s spin linear infinite;
+}
+.border::before {
+  filter: blur(1.5rem);
+  opacity: 0.5;
+}
+@keyframes spin {
+  from {
+    --angle: 0deg;
+  }
+  to {
+    --angle: 360deg;
+  }
+  /* variables cannot be given animations */
+}

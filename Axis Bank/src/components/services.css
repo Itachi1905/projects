@@ -1,0 +1,68 @@
+.services {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .services h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    position: relative;
+    color: #333;
+  }
+  
+  .services h2:after {
+    content: "";
+    width: 80px;
+    height: 4px;
+    background-color: #a8193d;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2px;
+  }
+  
+  .services .service-item {
+    display: inline-block;
+    border-radius: 10px;
+    width: 30%;
+    margin: 0 1%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #f4f4f4;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    position: relative;
+  }
+  
+  .services .service-item:hover {
+    transform: scale(1.1) translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .services h3 {
+    font-size: 1.5rem;
+  }
+  
+  #ss_1 {
+    background: url("https://www.forbes.com/advisor/wp-content/uploads/2024/08/Saving-Rates-6-568x322.jpeg")
+      no-repeat center center/cover;
+  }
+  
+  #ss_2 {
+    background: url("https://www.axisbank.com/images/default-source/progress-with-us_new/everything-about-premature-fixed-deposit-withdrawal.jpg?sfvrsn=ae5f1956_2")
+      no-repeat center center/cover;
+  }
+  
+  #ss_3 {
+    background: url("https://www.livemint.com/lm-img/img/2024/03/26/600x338/rupixen-com-Q59HmzK38eQ-unsplash_1703238294784_1711439108838.jpg")
+      no-repeat center center/cover;
+  }
+  
+  #ss_4 {
+    background: url("https://www.axisbank.com/images/default-source/revamp_new/loans/pl-higher-education.jpg")
+      no-repeat center center/cover;
+  }
+  
